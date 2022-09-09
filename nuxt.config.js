@@ -21,7 +21,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
+  plugins: [ 
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -37,5 +37,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: ['three'],
+  },
+
+  //loading: './components/Loader.vue'
+
+  loading: {
+    color: '#ff4525', 
+    throttle: 0,
   }
 }

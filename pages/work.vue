@@ -1,26 +1,18 @@
 <template>
     <div>
-        <GUI/>
-        <Navbar/>
-         <Nuxt/>
-        <Footer/>
+        About
     </div>
 </template>
 
 <script>
 export default {
-    methods: {
-        
-    },
-
     data() {
         return {
             
         }
     },
+    methods: {
+        
+    },
 }
 </script>
-
-<style>
-    
-</style>
